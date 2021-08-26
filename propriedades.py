@@ -1,0 +1,17 @@
+propriedades = dict()
+propriedades['3'] = {'owner':None, 'price':1, 'pay':1, 'name': 'ballon stand'}
+propriedades['4'] = {'owner':None, 'price':1, 'pay':1, 'name': 'corron stand'}
+propriedades['7'] = {'owner':None, 'price':2, 'pay':2, 'name': 'puppet show'}
+propriedades['8'] = {'owner':None, 'price':2, 'pay':2, 'name': 'magic show'}
+propriedades['12'] = {'owner':None, 'price':2, 'pay':2, 'name': 'merry-go round'}
+propriedades['13'] = {'owner':None, 'price':2, 'pay':2, 'name': 'paddle boats'}
+propriedades['15'] = {'owner':None, 'price':3, 'pay':3, 'name': 'water slide'}
+propriedades['16'] = {'owner':None, 'price':3, 'pay':3, 'name': 'mini golf'}
+propriedades['19'] = {'owner':None, 'price':3, 'pay':3, 'name': 'video arcade'}
+propriedades['20'] = {'owner':None, 'price':3, 'pay':3, 'name': 'haunted house'}
+propriedades['23'] = {'owner':None, 'price':4, 'pay':4, 'name': 'helicopter ride'}
+propriedades['24'] = {'owner':None, 'price':4, 'pay':4, 'name': 'pony ride'}
+propriedades['28'] = {'owner':None, 'price':4, 'pay':4, 'name': 'bumber cars'}
+propriedades['29'] = {'owner':None, 'price':4, 'pay':4, 'name': 'ferris wheel'}
+propriedades['31'] = {'owner':None, 'price':5, 'pay':5, 'name': 'loop the loop'}
+propriedades['32'] = {'owner':None, 'price':5, 'pay':5, 'name': 'roller coaster'}
