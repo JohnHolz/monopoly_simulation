@@ -6,7 +6,7 @@ class Player():
         self.money = money
         self.play_next_round = True
         self.player_name = player_name
-
+    
     def __repr__(self):
         ret =  f"""
         name:{self.player_name}
@@ -17,7 +17,7 @@ class Player():
 
     def __len__(self):
         return self.position
-    
+
     def update_money(self, int):
         self.money = self.money+int
         
