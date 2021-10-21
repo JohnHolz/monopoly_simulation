@@ -16,5 +16,5 @@ def players_position(players,tab):
 
 def print_game(players,tab):
     players_info_table = pd.DataFrame(list(map(lambda x: x.to_dict(),players)))
-    print(players_info_table)
+    print(players_info_table[['name','money','position','play_next_round']])
     return players_position(players,tab)

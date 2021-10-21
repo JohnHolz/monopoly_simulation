@@ -1,5 +1,7 @@
 from numpy.random import randint
-from propriedades import propriedades
+import sys
+sys.path.append('../')
+from modules.propriedades import propriedades
 
 def card(player):
     if randint(2)==True:
