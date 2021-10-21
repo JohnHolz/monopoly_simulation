@@ -1,4 +1,22 @@
 # Jogo Monopoly
+
+    condition = True
+    i = 0
+    while(condition):
+    #     <RODADA>
+    #     for i in [gabriel, brenda, joao]:
+    #         if i.play_next_round:
+    #         function(player)
+    #             i.roll_dice
+    #             tabuleiro[str(i.position)](i)
+    #         else:
+    #             i.play_next_round = True
+    #     <FIM DA RODADA>
+        i+=1
+        if i>10_000:
+            print(i)
+            break
+
 #### João Paulo de Paiva Holz
 1. 2 Players vão jogar
 1. Players possuem:

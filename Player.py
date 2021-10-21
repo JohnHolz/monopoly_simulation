@@ -1,15 +1,15 @@
 from numpy.random import randint
 
 class Player():
-    def __init__(self, player_name, money=31, position = 1):
+    def __init__(self, name, money=31, position = 1):
         self.position = position
         self.money = money
         self.play_next_round = True
-        self.player_name = player_name
+        self.name = name
     
     def __repr__(self):
         ret =  f"""
-        name:{self.player_name}
+        name:{self.name}
         money:{self.money}
         position:{self.position}
         next round:{self.play_next_round}"""
@@ -29,3 +29,12 @@ class Player():
         
     def not_play_next_round(self):
         self.play_next_round = False
+
+    def to_dict(self):
+        ret = dict()
+        ret['position'] = self.position
+        ret['money'] = self.money
+        ret['play_next_round'] = self.play_next_round
+        ret['name'] = self.name
+        return ret
+    
